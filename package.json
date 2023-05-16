@@ -1,7 +1,7 @@
 {
-  "name": "testapp",
+  "name": "test-design-system",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -60,8 +60,8 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.21.5",
-    "@storybook/addon-docs": "^6.3.12",
     "@storybook/addon-actions": "^6.3.6",
+    "@storybook/addon-docs": "^6.3.12",
     "@storybook/addon-essentials": "^7.0.11",
     "@storybook/addon-interactions": "^7.0.11",
     "@storybook/addon-links": "^7.0.11",
@@ -75,5 +75,10 @@
     "prop-types": "^15.8.1",
     "storybook": "^7.0.11",
     "webpack": "^5.82.1"
-  }
+  },
+  "description": "Testing design system package",
+  "main": "dist/index.js",
+  "repository": "https://github.com/pwintthiri/test-design-system.git",
+  "author": "pwintthiri <pwintthiriko2001@gmail.com>",
+  "license": "MIT"
 }
