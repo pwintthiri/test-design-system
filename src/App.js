@@ -1,11 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import { TextInput } from './stories/TextInput/TextInput';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <TextInput
+            helpText
+            leadIcon
+            trailingIcon
+            type="filled"
+          />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -16,9 +23,11 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
+          
         </a>
       </header>
     </div>
+    
   );
 }
 

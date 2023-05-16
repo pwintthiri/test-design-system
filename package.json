@@ -1,5 +1,5 @@
 {
-  "name": "test-storybook",
+  "name": "@pwintthiri/test-storybook",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
@@ -79,7 +79,14 @@
   },
   "description": "Testing design system package",
   "main": "dist/index.js",
-  "repository": "https://github.com/pwintthiri/test-design-system.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pwintthiri/test-design-system.git"
+  },
   "author": "pwintthiri <pwintthiriko2001@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pwintthiri/test-design-system/issues"
+  },
+  "homepage": "https://github.com/pwintthiri/test-design-system#readme"
 }
